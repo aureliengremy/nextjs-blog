@@ -1,18 +1,24 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Create NextJS - Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
+      <Image src="/images/profile.png" height={244} width={244} alt="Aurelien Gremy"/>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Learn <a href="https://nextjs.org">Next.js!</a>
         </h1>
+
+        <h2>My fist page: <Link href="/posts/first-post">HERE!</Link>  </h2>
+
 
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
