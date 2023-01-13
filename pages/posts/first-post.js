@@ -18,7 +18,7 @@ export default function FirstPost() {
             />
             <Layout>
                 <h1>Fist Post</h1>
-                <Link href="/">Back to home</Link>
+                {/* <Link href="/">Back to home</Link> */}
             </Layout>
         </>
     )
