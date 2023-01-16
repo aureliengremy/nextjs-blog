@@ -17,6 +17,7 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   // console.log(allPostsData);
+  // console.log( getAllPostIds());
   return (
     <Layout home>
       <Head>
